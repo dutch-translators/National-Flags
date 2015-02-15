@@ -6,6 +6,7 @@
 * @package - National Flags language
 * @copyright (c) 2015 RMcGirr83
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 *
 */
 
@@ -36,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 
 	//A couple for the ACP User Profile
-	'FLAG'				=> 'Flag',
-	'FLAG_EXPLAIN'		=> 'Choose your National Flag.',
-	'USER_NEEDS_FLAG'	=> 'Please take a moment and %svisit your profile%s to choose a flag.',
+	'FLAG'				=> 'Vlag',
+	'FLAG_EXPLAIN'		=> 'Kies je Nationale Vlag.',
+	'USER_NEEDS_FLAG'	=> 'Neem even een momentje om %sje profiel te bezoeken%s zodat je je nationale vlag kan kiezen.',
 ));
