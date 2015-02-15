@@ -6,6 +6,7 @@
 * @package - National Flags language
 * @copyright (c) RMcGirr83
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 *
 */
 
@@ -35,48 +36,47 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	//Module and page titles
-	'ACP_CAT_FLAGS'						=> 'National Flags',
-	'ACP_FLAGS'							=> 'National Flags',
-	'ACP_FLAGS_EXPLAIN'					=> 'Here you can add/edit and delete the different Flags. <strong>If you want to use images you should upload them to ext/rmcgirr83/nationalflags/flags before you add the new Flag.</strong>',
+	'ACP_CAT_FLAGS'						=> 'Nationale Vlaggen',
+	'ACP_FLAGS'							=> 'Nationale Vlaggen',
+	'ACP_FLAGS_EXPLAIN'					=> 'Hier kan je vlaggen toevoegoen, wijzigen en/of verwijderen <strong>Upload de afbeeldingen die je wilt gebruiken naar: ext/rmcgirr83/nationalflags/flags voordat je een nieuwe vlag toevoegt.</strong>',
 
 	//Add/Edit Flags
-	'FLAG_EDIT'							=> 'Edit Flag',
-	'FLAG_ADD'							=> 'Add new Flag',
-	'FLAG_NAME'							=> 'Flag Name',
-	'FLAG_NAME_EXPLAIN'					=> 'The name of the Flag. If you choose to display as text or both the flag will displayed as it is here.',
-	'FLAG_IMG'							=> 'Image Name',
-	'FLAG_IMG_EXPLAIN'					=> 'The name of the image. Example: UK.gif. New images should be uploaded to ext/rmcgirr83/nationalflags/flags<br />If you do not want to use an image just leave this blank.',
-	'FLAG_IMAGE'						=> 'Flag Image',
-	'FLAG_ADD'							=> 'Add new flag',
+	'FLAG_EDIT'							=> 'Vlag wijzigen',
+	'FLAG_ADD'							=> 'Voeg nieuwe vlag toe',
+	'FLAG_NAME'							=> 'Vlag naam',
+	'FLAG_NAME_EXPLAIN'					=> 'De naam van de vlag. Als je ervoor kiest om de vlag als teskt weer te geven of beide, dan wordt de vlag zoals hier ingesteld weergegeven',
+	'FLAG_IMG'							=> 'Afbeeldingsnaam',
+	'FLAG_IMG_EXPLAIN'					=> 'De naam van de afbeelding. bijvoorbeeld: NL.gif. Nieuwe afbeeldingen moeten worden geupload naar ext/rmcgirr83/nationalflags/flags<br />Als je geen afbeelding wilt gebruiken, laat dit veld dan leeg.',
+	'FLAG_IMAGE'						=> 'Vlag afbeelding',
 
 	//Settings
-	'ACP_FLAG_SETTINGS'					=> 'National Flag Settings',
-	'YES_FLAGS'							=> 'Enable Flags',
-	'YES_FLAGS_EXPLAIN'					=> 'Choose to disable or enable the Flags',
-	'FLAG_TYPE'							=> 'Display behaviour',
-	'FLAG_TYPE_EXPLAIN'					=> 'Choose how to display the flag.',
-	'FLAG_TEXT'							=> 'Text',
-	'FLAG_IMAGE'						=> 'Image',
-	'FLAG_BOTH'							=> 'Both',
-	'FLAGS_VERSION'						=> 'National Flags Version',
-	'FLAGS_ON_REG'						=> 'Flags on Registration',
-	'FLAGS_ON_REG_EXPLAIN'				=> 'Choosing Yes here will force new registrants to choose a flag',
-	'FLAGS_DISPLAY_MSG'					=> 'Display a message',
-	'FLAGS_DISPLAY_MSG_EXPLAIN'			=> 'Choosing Yes here will display a message on the forum for a user to choose a flag',
+	'ACP_FLAG_SETTINGS'					=> 'Nationale vlag instellingen',
+	'YES_FLAGS'							=> 'Vlaggen inschakelen',
+	'YES_FLAGS_EXPLAIN'					=> 'Schakel de vlaggen in/uit',
+	'FLAG_TYPE'							=> 'Weergave',
+	'FLAG_TYPE_EXPLAIN'					=> 'Kies hoe je de vlag wilt weergeven.',
+	'FLAG_TEXT'							=> 'Tekst',
+	'FLAG_IMAGE'						=> 'Afbeelding',
+	'FLAG_BOTH'							=> 'Beide',
+	'FLAGS_VERSION'						=> 'National Flags Versie',
+	'FLAGS_ON_REG'						=> 'Vlaggen bij registratie',
+	'FLAGS_ON_REG_EXPLAIN'				=> 'Indien ja is ingesteld, worden nieuwe leden verplicht om een vlag te kiezen bij hun registratie',
+	'FLAGS_DISPLAY_MSG'					=> 'Bericht weergeven',
+	'FLAGS_DISPLAY_MSG_EXPLAIN'			=> 'Indien ja is ingesteld, zal er een bericht op het forum worden weergegeven om gebruikers een vlag te laten kiezen',
 
 	//Logs, messages and errors
-	'LOG_FLAGS_DELETED'					=> 'Deleted Flag: %1$s',
-	'LOG_FLAG_EDIT'						=> 'Updated Flag: %1$s',
-	'LOG_FLAG_ADD'						=> 'Added new Flag: %1$s',
-	'MSG_FLAGS_DELETED'					=> 'Flag has been deleted.',
-	'MSG_CONFIRM'						=> 'Are you sure you want to delete this flag?',
-	'MSG_FLAG_CONFIRM_DELETE'			=> '<br /><strong>%d</strong> user has this flag and will have to select a different flag if you choose to delete this one.',
-	'MSG_FLAGS_CONFIRM_DELETE'			=> '<br /><strong>%d</strong> users have this flag and will have to select a different flag if you choose to delete this one.',
-	'MSG_FLAG_EDITED'					=> 'Flag has been edited.',
-	'MSG_FLAG_ADDED'					=> 'New Flag has been added.',
-	'FLAG_ERROR_NO_FLAG_NAME'			=> 'No Flag name defined, this is a required field.',
-	'FLAG_ERROR_NOT_EXIST'				=> 'The selected Flag does not exist.',
-	'FLAG_CONFIG_SAVED'					=> 'Flag configuration has been updated',
-	'FLAG_NAME_EXISTS'					=> 'A flag with that name already exists',
+	'LOG_FLAGS_DELETED'					=> '%1$s vlag verwijderd',
+	'LOG_FLAG_EDIT'						=> '%1$s vlag bijgewerkt',
+	'LOG_FLAG_ADD'						=> '%1$s vlag toegevoegd',
+	'MSG_FLAGS_DELETED'					=> 'De vlag is sucesvol verwijderd.',
+	'MSG_CONFIRM'						=> 'Weet je zeker dat je deze vlag wilt verwijderen?',
+	'MSG_FLAG_CONFIRM_DELETE'			=> '<br /><strong>%d</strong> Een gebruiker heeft deze vlag, als je deze vlag verwijderd zal deze gebruiker een andere vlag moeten kiezen.',
+	'MSG_FLAGS_CONFIRM_DELETE'			=> '<br /><strong>%d</strong> Er zijn gebruikers die deze vlag hebben ingesteld, ls je deze vlag verwijderd zullen deze gebruikers een andere vlag moeten kiezen .',
+	'MSG_FLAG_EDITED'					=> 'De vlag is succesvol gewijzigd.',
+	'MSG_FLAG_ADDED'					=> 'De vlag is succesvol toegevoegt.',
+	'FLAG_ERROR_NO_FLAG_NAME'			=> 'Er is geen vlag naam ingevoerd, dit is een verplicht veld.',
+	'FLAG_ERROR_NOT_EXIST'				=> 'De geselecteerde vlag bestaat niet.',
+	'FLAG_CONFIG_SAVED'					=> 'De vlag instellingen zijn succesvol bijgewerkt',
+	'FLAG_NAME_EXISTS'					=> 'Er bestaat al en vlag met dezelfde naam',
 
 ));
