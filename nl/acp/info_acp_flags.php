@@ -42,25 +42,20 @@ $lang = array_merge($lang, array(
 
 	//Add/Edit Flags
 	'FLAG_EDIT'							=> 'Vlag wijzigen',
-	'FLAG_ADD'							=> 'Voeg nieuwe vlag toe',
 	'FLAG_NAME'							=> 'Vlag naam',
 	'FLAG_NAME_EXPLAIN'					=> 'De naam van de vlag. Als je ervoor kiest om de vlag als teskt weer te geven of beide, dan wordt de vlag zoals hier ingesteld weergegeven',
 	'FLAG_IMG'							=> 'Afbeeldingsnaam',
 	'FLAG_IMG_EXPLAIN'					=> 'De naam van de afbeelding. bijvoorbeeld: NL.gif. Nieuwe afbeeldingen moeten worden geupload naar ext/rmcgirr83/nationalflags/flags<br />Als je geen afbeelding wilt gebruiken, laat dit veld dan leeg.',
 	'FLAG_IMAGE'						=> 'Vlag afbeelding',
+	'FLAG_ADD'							=> 'Voeg nieuwe vlag toe',
 
 	//Settings
 	'ACP_FLAG_SETTINGS'					=> 'Nationale vlag instellingen',
 	'YES_FLAGS'							=> 'Vlaggen inschakelen',
 	'YES_FLAGS_EXPLAIN'					=> 'Schakel de vlaggen in/uit',
-	'FLAG_TYPE'							=> 'Weergave',
-	'FLAG_TYPE_EXPLAIN'					=> 'Kies hoe je de vlag wilt weergeven.',
-	'FLAG_TEXT'							=> 'Tekst',
-	'FLAG_IMAGE'						=> 'Afbeelding',
-	'FLAG_BOTH'							=> 'Beide',
 	'FLAGS_VERSION'						=> 'National Flags Versie',
-	'FLAGS_ON_REG'						=> 'Vlaggen bij registratie',
-	'FLAGS_ON_REG_EXPLAIN'				=> 'Indien ja is ingesteld, worden nieuwe leden verplicht om een vlag te kiezen bij hun registratie',
+	'FLAGS_REQUIRED'					=> 'Verplicht veld',
+	'FLAGS_REQUIRED_EXPLAIN'			=> 'Als je JA hebt gekozen, dan worden mensen die zich rigistreren en gebruikers die hun profiel wijzigen, verplicht om een vlag te kiezen',
 	'FLAGS_DISPLAY_MSG'					=> 'Bericht weergeven',
 	'FLAGS_DISPLAY_MSG_EXPLAIN'			=> 'Indien ja is ingesteld, zal er een bericht op het forum worden weergegeven om gebruikers een vlag te laten kiezen',
 
@@ -75,8 +70,10 @@ $lang = array_merge($lang, array(
 	'MSG_FLAG_EDITED'					=> 'De vlag is succesvol gewijzigd.',
 	'MSG_FLAG_ADDED'					=> 'De vlag is succesvol toegevoegt.',
 	'FLAG_ERROR_NO_FLAG_NAME'			=> 'Er is geen vlag naam ingevoerd, dit is een verplicht veld.',
+	'FLAG_ERROR_NO_FLAG_IMG'			=> 'Geen vlag afbeelding gedefinieerd, dit is een verplicht veld.',
 	'FLAG_ERROR_NOT_EXIST'				=> 'De geselecteerde vlag bestaat niet.',
 	'FLAG_CONFIG_SAVED'					=> 'De vlag instellingen zijn succesvol bijgewerkt',
 	'FLAG_NAME_EXISTS'					=> 'Er bestaat al en vlag met dezelfde naam',
+	'FLAG_SETTINGS_CHANGED'				=> 'Nationale vlag instellingen gewijzigd.'
 
 ));
