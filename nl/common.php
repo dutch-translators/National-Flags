@@ -35,9 +35,16 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-
-	//A couple for the ACP User Profile
 	'FLAG'				=> 'Vlag',
+	'FLAGS'				=> '%s Vlaggen',
+	'USER_FLAG'			=> 'Vlag',
+	'NATIONAL_FLAGS'	=> 'Vlaggen',	
 	'FLAG_EXPLAIN'		=> 'Kies je Nationale Vlag.',
 	'USER_NEEDS_FLAG'	=> 'Neem even een momentje om %sje profiel te bezoeken%s zodat je je nationale vlag kan kiezen.',
+	'FLAGS_VIEWONLINE'	=> 'Bekijkt vlaggen',
+	'FLAG_USER'			=> '%s Gebruiker',
+	'FLAG_USERS'		=> '%s Gebruikers',
+	'MUST_CHOOSE_FLAG'	=> 'Je moet een vlag kiezen.',
+	'NO_SUCH_FLAG'		=> 'Kies alstublieft een vlag.',
+	'NO_USER_HAS_FLAG'	=> 'Er zijn nog geen gebruikers met deze vlag',	
 ));
